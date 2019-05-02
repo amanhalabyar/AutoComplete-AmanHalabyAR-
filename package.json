@@ -1,0 +1,23 @@
+{
+  "name": "autocomplete-amanhalabyar-",
+  "version": "1.0.0",
+  "description": "A website that making it possible for the users to select words from a list of suggestions.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanhalabyar/AutoComplete-AmanHalabyAR-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanhalabyar/AutoComplete-AmanHalabyAR-/issues"
+  },
+  "homepage": "https://github.com/amanhalabyar/AutoComplete-AmanHalabyAR-#readme",
+  "dependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
