@@ -1,5 +1,5 @@
 body {
-  background: url();
+  background: url("https://www.unesourisetmoi.info/net/galeries/hd6/fonds-ecran-hd-gratuits_29.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -8,10 +8,11 @@ body {
   font-size: 50px;
   font-weight: bold;
   margin: 150px;
+  margin-right: 37%;
 }
 
 input {
-  text-align: center;
+  text-align: left;
   width: 700px;
   box-sizing: border-box;
   border: 2px solid Black;
@@ -21,16 +22,20 @@ input {
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 20px 50px 20px 50px;
+  margin-right: 15%;
 }
 
 .button {
-  background-color: white;
-  border: none;
-  color: Black;
-  font-size: 20px;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 50px 20px;
-  cursor: pointer;
-  box-shadow: 3px 3px 3px 3px grey;
+background-color: white;
+border: none;
+color: Black;
+font-size: 20px;
+padding: 16px 32px;
+text-decoration: none;
+margin: 50px 20px;
+cursor: pointer;
+box-shadow: 3px 3px 3px 3px grey;
+margin-left: 15%;
+margin-bottom: 40px;
+
 }
