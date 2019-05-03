@@ -7,16 +7,18 @@
     </head>
     <body>
       <section class="title"><h1>Search for your family name</h1></section>
-      <form autocomplete="off" action="/action_page.php">
+      <form>
         <section>
         <input
         id="search"
+        class="search-field"
         name="family name"
         type="text"
         placeholder="searching family name..."
-      />
+        autofocus/>
+      <ul id="searchResults" class="term-list hidden"></ul>
       </section>
-      <button class="button" type="submit"><b>Search</b></button>
+      <!-- <button class="button" type="submit"><b>Search</b></button> -->
     </form>
     <script type="text/javascript" src="index.js"></script>
   </body>

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const querystring = require("querystring");
 const url = require("url");
-const words = fs.readFileSync(path.join(__dirname, "..", "word.txt"), "utf-8").split(/\n/);
+const names = fs.readFileSync(path.join(__dirname, "..", "word.txt"), "utf-8").split(/\n/);
 
 function handlerHome(request, response ) {
   const endpoint = request.url;
@@ -43,7 +43,7 @@ const handlerPublic = (request,response) => {
 
 const handlerSearch = (request, response) => {
   const endpoint = request.url;
-  const result = words.filter(el => el[0] === "A");
+  const result = names.filter(el => el[0] === "A");
   console.log(result);
 };
 
