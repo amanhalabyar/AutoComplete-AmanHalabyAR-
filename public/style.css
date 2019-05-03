@@ -25,7 +25,7 @@ input {
   margin-right: 15%;
 }
 
-.button {
+ /* .button {
 background-color: white;
 border: none;
 color: Black;
@@ -38,4 +38,38 @@ box-shadow: 3px 3px 3px 3px grey;
 margin-left: 15%;
 margin-bottom: 40px;
 
+} */
+
+.search-field {
+  display: block;
+  width: 30%;
+  margin: 1em auto 0;
+  padding: .5em
+  border: 1px solid;
+  font-size: 130%;
+  color: black;
+  margin-left: 400px;
+}
+
+.term-list {
+  list-style: none inside;
+  width: 30%;
+  margin-left: 370px;
+  text-align: left;
+  color: black;
+  background: 0;
+  box-sizing: border-box;
+  /* border: 1px solid #ddd */
+}
+
+  li {
+    padding: .5em 0;
+    border-bottom: 1px solid;
+strong {
+  color: #444
+  /* font-weight: $fw-heavy */
+}
+}
+.hidden {
+ display: none
 }
